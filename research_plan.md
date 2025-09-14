@@ -1,0 +1,5 @@
+# Research Plan
+
+My approach is to combine Python’s AST module with CodeBERT (an open-source transformer model) to analyze student Python code. AST is used to extract structural code features like functions, loops, and complexity, while CodeBERT captures semantic meaning of code. Together, these help identify not just syntax issues, but deeper reasoning gaps. Prompts are then generated to encourage students to explain their thinking instead of being given direct answers.
+
+During validation, I tested on a buggy function `add_numbers` that used subtraction. The AST revealed 1 function and complexity=1. CodeBERT produced embeddings of shape (1, 768), confirming semantic analysis. Our output prompt was: *“Your function is called 'add_numbers' but contains subtraction. Why might that be?”* This shows the system can highlight misconceptions and guide reflection. Trade-offs are: CodeBERT is lightweight and easy to run, but fine-tuning is needed to improve pedagogical accuracy.

@@ -1,0 +1,12 @@
+[
+  {
+    "code": "def my_function(): x=10; return x\nprint(x)",
+    "error_types": [
+      "NameError"
+    ],
+    "misconceptions": [
+      "variable_scope"
+    ],
+    "skill_level": "beginner"
+  }
+]
