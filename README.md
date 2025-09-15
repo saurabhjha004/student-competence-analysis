@@ -123,15 +123,6 @@ Ready to explore the system? Follow this checklist:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-**Citation:**
-```bibtex
-@software{student_competence_analysis_2025,
-  author = {Saurabh Jha},
-  title = {Python Student Competence Analysis: AI-Powered Educational Assessment},
-  year = {2025},
-  url = {https://github.com/saurabhjha004/student-competence-analysis},
-  note = {FOSSEE Internship Project}
-}
-```
+
 
 ---
