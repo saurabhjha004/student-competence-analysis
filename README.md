@@ -5,21 +5,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FOSSEE](https://img.shields.io/badge/Project-FOSSEE%20Internship-orange.svg)]()
 
-> **🎯 An innovative AI system that combines CodeBERT with Abstract Syntax Tree analysis to assess Python student competence and generate meaningful educational prompts for deeper learning.**
+> ** An innovative AI system that combines CodeBERT with Abstract Syntax Tree analysis to assess Python student competence and generate meaningful educational prompts for deeper learning.**
 
-## 📋 Project Overview
+## Project Overview
 
 This project addresses **Python Screening Task 3** by developing an intelligent educational assessment system that revolutionizes how we evaluate student programming competence. By combining state-of-the-art AI models with traditional code analysis techniques, the system provides comprehensive insights into student understanding while generating pedagogically sound prompts that encourage deeper learning.
 
-### 🎯 Key Capabilities
+###  Key Capabilities
 
-- **🔍 Multi-dimensional Code Analysis**: Combines AST structural analysis with CodeBERT semantic understanding
-- **🧠 Intelligent Misconception Detection**: Identifies common Python learning difficulties through research-backed patterns
-- **💡 Educational Prompt Generation**: Creates adaptive questions that guide learning without revealing solutions
-- **📊 Comprehensive Assessment**: Provides detailed insights into student competence levels
-- **⚡ Real-time Processing**: Supports both immediate feedback and batch analysis
+- ** Multi-dimensional Code Analysis**: Combines AST structural analysis with CodeBERT semantic understanding
+- ** Intelligent Misconception Detection**: Identifies common Python learning difficulties through research-backed patterns
+- ** Educational Prompt Generation**: Creates adaptive questions that guide learning without revealing solutions
+- ** Comprehensive Assessment**: Provides detailed insights into student competence levels
+- ** Real-time Processing**: Supports both immediate feedback and batch analysis
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -50,15 +50,15 @@ python demo_runner.py
 
 Expected output:
 ```
-🚀 Python Student Competence Analysis - Live Demo
+ Python Student Competence Analysis - Live Demo
 ================================================================
-📝 Analyzing: Function naming misconception
+ Analyzing: Function naming misconception
 ================================================================
-🔍 Step 1: AST Feature Extraction
-✅ AST Features: {'functions': 1, 'loops': 0, 'conditionals': 0, 'complexity': 1}
-🧠 Step 2: CodeBERT Semantic Analysis
-✅ Code Embedding Shape: torch.Size([1, 768])
-💡 Step 3: Educational Prompt Generation
+ Step 1: AST Feature Extraction
+ AST Features: {'functions': 1, 'loops': 0, 'conditionals': 0, 'complexity': 1}
+ Step 2: CodeBERT Semantic Analysis
+ Code Embedding Shape: torch.Size([1, 768])
+ Step 3: Educational Prompt Generation
 >> Educational Prompt: Your function is called 'add_numbers' but contains 
    subtraction. Why might that be confusing for someone reading your code?
 ```
@@ -102,23 +102,23 @@ python -m pytest tests/
 jupyter notebook notebooks/
 ```
 
-## 📚 Documentation
+## Documentation
 
-- **📋 [research_plan.md](research_plan.md)**: Comprehensive research methodology and framework
+- ** [research_plan.md](research_plan.md)**: Comprehensive research methodology and framework
 
-## 🎯 Getting Started Checklist
+## Getting Started Checklist
 
 Ready to explore the system? Follow this checklist:
 
-- [ ] **Clone the repository** and run `setup_project.py`
-- [ ] **Install dependencies** with `pip install -r requirements.txt`
-- [ ] **Run the demo** using `python demo_runner.py`
-- [ ] **Explore the code** in `src/python_code_analyzer.py`
-- [ ] **Try your own examples** by modifying the demo code
-- [ ] **Read the research plan** for detailed methodology
-- [ ] **Contribute improvements** via pull requests
+- **Clone the repository** and run `setup_project.py`
+- **Install dependencies** with `pip install -r requirements.txt`
+- **Run the demo** using `python demo_runner.py`
+- **Explore the code** in `src/python_code_analyzer.py`
+- **Try your own examples** by modifying the demo code
+- **Read the research plan** for detailed methodology
+- **Contribute improvements** via pull requests
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
