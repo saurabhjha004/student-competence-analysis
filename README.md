@@ -13,11 +13,11 @@ This project addresses **Python Screening Task 3** by developing an intelligent 
 
 ###  Key Capabilities
 
-- ** Multi-dimensional Code Analysis**: Combines AST structural analysis with CodeBERT semantic understanding
-- ** Intelligent Misconception Detection**: Identifies common Python learning difficulties through research-backed patterns
-- ** Educational Prompt Generation**: Creates adaptive questions that guide learning without revealing solutions
-- ** Comprehensive Assessment**: Provides detailed insights into student competence levels
-- ** Real-time Processing**: Supports both immediate feedback and batch analysis
+- **Multi-dimensional Code Analysis**: Combines AST structural analysis with CodeBERT semantic understanding
+- **Intelligent Misconception Detection**: Identifies common Python learning difficulties through research-backed patterns
+- **Educational Prompt Generation**: Creates adaptive questions that guide learning without revealing solutions
+- **Comprehensive Assessment**: Provides detailed insights into student competence levels
+- **Real-time Processing**: Supports both immediate feedback and batch analysis
 
 ##  Quick Start
 
