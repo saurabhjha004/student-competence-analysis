@@ -182,6 +182,12 @@ Student Code Input
 - Clear pathways for scaling and commercialization
 - Open-source contribution to educational technology community
 
+## Example Output
+
+The following screenshot shows the result of the student competence analysis prototype:
+
+![Output Screenshot](./sample_output.png)
+
 ## Conclusion
 
 This research plan establishes a comprehensive framework for evaluating and implementing open-source AI models for Python student competence analysis. Through systematic evaluation of CodeBERT combined with AST analysis, the research addresses critical needs in programming education while contributing novel insights to educational technology research. The hybrid approach promises to advance both technical capabilities and educational effectiveness in automated programming assessment.
