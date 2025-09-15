@@ -2,11 +2,11 @@ from src.python_code_analyzer import PythonCodeAnalyzer
 from transformers import AutoTokenizer, AutoModel
 import torch
 
-# Load CodeBERT
+# load CodeBERT
 tokenizer = AutoTokenizer.from_pretrained("microsoft/codebert-base")
 model = AutoModel.from_pretrained("microsoft/codebert-base")
 
-# Example student code with a bug
+# example student code with a bug
 student_code = """
 def add_numbers(a, b):
     return a - b   # subtraction instead of addition
@@ -22,7 +22,7 @@ if parsed["success"]:
 else:
     print("Syntax Error:", parsed["error"])
 
-# --- Embeddings with CodeBERT ---
+# --- embeddings with CodeBERT ---
 inputs = tokenizer(student_code, return_tensors="pt", truncation=True, max_length=256)
 with torch.no_grad():
     outputs = model(**inputs)

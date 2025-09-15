@@ -13,4 +13,4 @@ def create_structure():
 
 if __name__ == "__main__":
     create_structure()
-    print("✅ Project setup complete")
+    print("Project setup complete")

@@ -1,9 +1,8 @@
 import os, json
 
-# Make sure folder exists
 os.makedirs("data/annotated_dataset", exist_ok=True)
 
-# Example dataset with misconception
+# example dataset with misconception
 example_data = [
     {
         "code": "def my_function():\n    x=10\n    return x\n\nprint(x)",
@@ -19,7 +18,7 @@ example_data = [
     }
 ]
 
-# Save dataset
+# save dataset
 with open("data/annotated_dataset/example.json", "w") as f:
     json.dump(example_data, f, indent=2)
 
