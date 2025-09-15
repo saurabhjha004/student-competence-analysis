@@ -23,4 +23,4 @@ example_data = [
 with open("data/annotated_dataset/example.json", "w") as f:
     json.dump(example_data, f, indent=2)
 
-print("✅ Dataset saved to data/annotated_dataset/example.json")
+print("Dataset saved to data/annotated_dataset/example.json")
