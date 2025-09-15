@@ -1,6 +1,6 @@
 # References
 
-This document lists the key research papers, articles, and resources referenced in the Python Student Competence Analysis project.
+This document lists the key research papers, articles, and resources referenced by me in the Python Student Competence Analysis project.
 
 1. Microsoft Research. **CodeBERT: A Pre-Trained Model for Programming and Natural Languages**. https://github.com/microsoft/CodeBERT
 2. Z. Liu et al. **Evaluating Code Generation with Pretrained Models of Code**. ACL Anthology, 2025.
@@ -17,7 +17,3 @@ This document lists the key research papers, articles, and resources referenced 
 13. D. Brown et al. **Measuring Prompt Effectiveness: Metrics and Methods**. KDnuggets, 2025.
 14. Educational Data Mining Research Community. **A Library for Detecting Symptoms of Python Programming Misconceptions**. ITiCSE 2023.
 15. FOSSEE. **Python Screening Task 3: Evaluating Open Source Models for Student Competence Analysis**. Internship Documentation, 2025.
-
----
-
-*This references list provides background resources and citations for the methodologies, models, and evaluation frameworks used in this project.*
